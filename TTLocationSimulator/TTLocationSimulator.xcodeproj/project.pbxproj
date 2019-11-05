@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA4DA61C2371D8D000EDC95D /* TTLocationSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4DA61B2371D8D000EDC95D /* TTLocationSimulator.m */; };
+		EA5E8CAD2371D13A009AF43C /* TTLocationManagerDelegateHooker.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5E8CAC2371D13A009AF43C /* TTLocationManagerDelegateHooker.m */; };
+		EA5E8CB02371D17C009AF43C /* CLLocationManager+TTLocationSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5E8CAF2371D17C009AF43C /* CLLocationManager+TTLocationSimulator.m */; };
+		EA5E8CB32371D202009AF43C /* NSObject+TTSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5E8CB22371D202009AF43C /* NSObject+TTSwizzle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA5E8C952371D0C0009AF43C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA4DA61B2371D8D000EDC95D /* TTLocationSimulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLocationSimulator.m; sourceTree = "<group>"; };
+		EA4DA61D2371D8D700EDC95D /* TTLocationSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLocationSimulator.h; sourceTree = "<group>"; };
+		EA5E8C972371D0C0009AF43C /* libTTLocationSimulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTTLocationSimulator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5E8CAB2371D13A009AF43C /* TTLocationManagerDelegateHooker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTLocationManagerDelegateHooker.h; sourceTree = "<group>"; };
+		EA5E8CAC2371D13A009AF43C /* TTLocationManagerDelegateHooker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTLocationManagerDelegateHooker.m; sourceTree = "<group>"; };
+		EA5E8CAE2371D17C009AF43C /* CLLocationManager+TTLocationSimulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLLocationManager+TTLocationSimulator.h"; sourceTree = "<group>"; };
+		EA5E8CAF2371D17C009AF43C /* CLLocationManager+TTLocationSimulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CLLocationManager+TTLocationSimulator.m"; sourceTree = "<group>"; };
+		EA5E8CB12371D202009AF43C /* NSObject+TTSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+TTSwizzle.h"; sourceTree = "<group>"; };
+		EA5E8CB22371D202009AF43C /* NSObject+TTSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TTSwizzle.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA5E8C942371D0C0009AF43C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA5E8C8E2371D0C0009AF43C = {
+			isa = PBXGroup;
+			children = (
+				EA5E8C992371D0C0009AF43C /* TTLocationSimulator */,
+				EA5E8C982371D0C0009AF43C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA5E8C982371D0C0009AF43C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5E8C972371D0C0009AF43C /* libTTLocationSimulator.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA5E8C992371D0C0009AF43C /* TTLocationSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				EA5E8CAA2371D117009AF43C /* inc */,
+				EA5E8CA92371D117009AF43C /* src */,
+			);
+			path = TTLocationSimulator;
+			sourceTree = "<group>";
+		};
+		EA5E8CA92371D117009AF43C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EA4DA61B2371D8D000EDC95D /* TTLocationSimulator.m */,
+				EA5E8CAB2371D13A009AF43C /* TTLocationManagerDelegateHooker.h */,
+				EA5E8CAC2371D13A009AF43C /* TTLocationManagerDelegateHooker.m */,
+				EA5E8CAE2371D17C009AF43C /* CLLocationManager+TTLocationSimulator.h */,
+				EA5E8CAF2371D17C009AF43C /* CLLocationManager+TTLocationSimulator.m */,
+				EA5E8CB12371D202009AF43C /* NSObject+TTSwizzle.h */,
+				EA5E8CB22371D202009AF43C /* NSObject+TTSwizzle.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		EA5E8CAA2371D117009AF43C /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				EA4DA61D2371D8D700EDC95D /* TTLocationSimulator.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA5E8C962371D0C0009AF43C /* TTLocationSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5E8CA02371D0C0009AF43C /* Build configuration list for PBXNativeTarget "TTLocationSimulator" */;
+			buildPhases = (
+				EA5E8C932371D0C0009AF43C /* Sources */,
+				EA5E8C942371D0C0009AF43C /* Frameworks */,
+				EA5E8C952371D0C0009AF43C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTLocationSimulator;
+			productName = TTLocationSimulator;
+			productReference = EA5E8C972371D0C0009AF43C /* libTTLocationSimulator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA5E8C8F2371D0C0009AF43C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Chen,Xintao";
+				TargetAttributes = {
+					EA5E8C962371D0C0009AF43C = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = EA5E8C922371D0C0009AF43C /* Build configuration list for PBXProject "TTLocationSimulator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA5E8C8E2371D0C0009AF43C;
+			productRefGroup = EA5E8C982371D0C0009AF43C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA5E8C962371D0C0009AF43C /* TTLocationSimulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA5E8C932371D0C0009AF43C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5E8CB02371D17C009AF43C /* CLLocationManager+TTLocationSimulator.m in Sources */,
+				EA4DA61C2371D8D000EDC95D /* TTLocationSimulator.m in Sources */,
+				EA5E8CB32371D202009AF43C /* NSObject+TTSwizzle.m in Sources */,
+				EA5E8CAD2371D13A009AF43C /* TTLocationManagerDelegateHooker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA5E8C9E2371D0C0009AF43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA5E8C9F2371D0C0009AF43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA5E8CA12371D0C0009AF43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA5E8CA22371D0C0009AF43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA5E8C922371D0C0009AF43C /* Build configuration list for PBXProject "TTLocationSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5E8C9E2371D0C0009AF43C /* Debug */,
+				EA5E8C9F2371D0C0009AF43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5E8CA02371D0C0009AF43C /* Build configuration list for PBXNativeTarget "TTLocationSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5E8CA12371D0C0009AF43C /* Debug */,
+				EA5E8CA22371D0C0009AF43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA5E8C8F2371D0C0009AF43C /* Project object */;
+}
