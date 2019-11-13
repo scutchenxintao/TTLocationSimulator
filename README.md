@@ -12,14 +12,14 @@
     //抛送定位点<br>
     [self.locationSimulator postLocation:location];<br>
     
-    //抛送后有startUpdatingLocation的CLLocationManager实例的delegate都会收到回调<br>
-    - (void)locationManager:(CLLocationManager *)manager<br>
-         didUpdateLocations:(NSArray<CLLocation *> *)locations {<br>
-        if (!locations.count) {<br>
-            return;<br>
-         }<br>
-        CLLocation *location = locations[0];<br>
-        NSLog(@"location.latitude = %f, location.longitude = %f", location.coordinate.latitude, location.coordinate.longitude);<br>
-    }<br>
+    //抛送后有startUpdatingLocation的CLLocationManager实例的delegate都会收到回调
+    - (void)locationManager:(CLLocationManager *)manager
+         didUpdateLocations:(NSArray<CLLocation *> *)locations {
+        if (!locations.count) {
+            return;
+         }
+        CLLocation *location = locations[0];
+        NSLog(@"location.latitude = %f, location.longitude = %f", location.coordinate.latitude, location.coordinate.longitude);
+    }
 
 (4)如果需要关闭模拟定位，调用stopLocationSimulation，CLLocationManager实例重新接收手机定位模块的GPS信息<br>
