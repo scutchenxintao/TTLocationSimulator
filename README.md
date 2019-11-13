@@ -22,4 +22,4 @@
         NSLog(@"location.latitude = %f, location.longitude = %f", location.coordinate.latitude, location.coordinate.longitude);
     }
 
-(4)如果需要关闭模拟定位，调用stopLocationSimulation，CLLocationManager实例重新接收手机定位模块的GPS信息<br>
+(4)如果需要关闭模拟定位，调用stopLocationSimulation，CLLocationManager实例的delegate重新接收手机定位模块的GPS信息<br>
